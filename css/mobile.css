@@ -1,0 +1,103 @@
+@media screen and (max-width: 501px) {
+
+.language{
+    top: 26px;
+    right: 26px;
+}
+.language a{
+    padding: 4px;
+    font-size: 12px;
+}
+#nav{
+    display: none;
+}
+
+.hero-image .content-wrap {
+    padding: 0 3%;
+}
+.title{
+	width: 216px;
+ }
+ .title span{
+ 	font-size: 10px;
+ }
+ .title h1{
+ 	font-size: 72px;
+    line-height: 60px;
+ }
+ .video-wrap{
+ 	padding: 18px 14px 0 14px;
+    width: 216px;
+    height: 194px;
+ }
+ .video-wrap .nav-btn-down{
+ 	font-size: 10px;
+    background-position: center 21px;
+}
+ .video-wrap p{
+ 	font-size: 10px;
+ }
+ .play-btn{
+ 	width: 44px;
+    height: 44px;
+    margin: 16px 0 8px 0;
+ }
+ #page2{
+ 	background-size: auto 100%;
+ }
+.content-slider .nav-btn-up{
+	font-size: 10px;
+    width: 216px;
+    height: 92px;
+    margin:0 7px 80px 0;
+}
+.box{
+	height: 294px;
+    width: 173px;
+    padding: 38px 38px 0 38px;
+}
+.box span{
+	font-size: 10px;
+}
+.box h2{
+	font-size: 20px;
+}
+.box a{
+	font-size: 8px;
+    padding: 11px 13px;
+    margin-top: 96px;
+}
+.slider-nav{
+	padding-left: 8px;
+}
+.slider-nav .prev-btn{
+	width: 44px;
+    height: 44px;
+    margin: 10px 0 0 10px;
+}
+.slider-nav .next-btn{
+	width: 44px;
+    height: 44px;
+    margin: 10px 0 0 10px;
+}
+.next-slider{
+	width: 215px;
+    height: 177px;
+    font-size: 10px;
+    padding: 20px 13px 0 13px;
+    margin-top: -11px;
+}
+.next-slider .nav-btn-down{
+    background-position: center 20px;
+}
+#page3{
+	background-size: auto 100%;
+}
+#page3 .nav-btn-up{
+	font-size: 10px;
+    width: 216px;
+    height: 92px;
+    margin:0 7px 80px 0;
+}
+
+}

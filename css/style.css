@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+ font-family: 'OpenSans';
+ overflow: hidden;
+}
+body.locked{
+	overflow: hidden;
+}
+body.locked .wrap{
+	overflow: hidden;
+}
+body.locked .finger-print{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'nimbussantotbold';
+	font-weight: bold;
+}
+.wrap{
+	position: relative;
+	height: 100%;
+}
+.language{
+	position: fixed;
+    top: 62px;
+    z-index: 2;
+    right: 54px;
+}
+.language a{
+	text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    padding: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#nav{
+	position: fixed;
+    top: 50%;
+    z-index: 2;
+    right: 44px;
+    width: 8px;
+    text-align: center;
+    
+}
+#nav a{
+	background-color: #959a9e;
+    text-decoration: none;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin: 16px 0 16px 0;
+    border-radius: 50%;
+    
+}
+#nav a.active{
+	background-color: #2cd597;
+    width: 12px;
+    height: 12px;
+}
+.page{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;	
+	
+}
+.finger-print{
+	background-color: #252e34;
+	top:0;
+	z-index: 2;
+	cursor: pointer;
+	display: none;
+	background-image: url(../images/PNGs/logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#page1{
+	top: 0;
+}
+
+#page1 .hero-image{
+	background-image: url(../images/PNGs/background_1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+}
+
+.hero-image .content-wrap{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 17%;
+	height: 100%;
+	position: relative;
+}
+.title{
+	width: 500px;
+	position: absolute;
+	bottom: 0;
+ }
+ .title span{
+ 	font-size: 14px;
+ }
+ .title h1{
+ 	font-size: 175px;
+    line-height: 140px;
+    text-transform: capitalize;
+ }
+ .video-wrap{
+ 	background-color: #fff;
+    color: #000;
+    padding: 46px 40px 0px 40px;
+    text-align: center;
+    width: 500px;
+    height: 306px;
+ }
+ .video-wrap .nav-btn-down{
+ 	font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+    color: #959197;
+    background-image: url(../images/PNGs/arrow_dwn.png);
+    background-repeat: no-repeat;
+    padding-bottom: 43px;
+    display: inline-block;
+    background-position: center 26px;
+}
+
+ .video-wrap p{
+ 	font-size: 16px;
+    text-align: left;
+    
+ }
+ .play-btn{
+ 	width: 64px;
+    height: 64px;
+    background-color: #2bd698;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    margin: 32px 0 40px 0;
+    background-image: url(../images/PNGs/play_icn.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ 
+#page2{
+	background-image: url(../images/PNGs/background_3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    top: 100%;
+}
+.content-slider{
+	    overflow: hidden;
+}
+.content-slider .nav-btn-up{
+	text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    background-image: url(../images/PNGs/arrow_white_up_icn.png);
+    background-repeat: no-repeat;
+    background-position: center 34px;
+    padding-top: 55px;
+    font-style: italic;
+    background-color: #252e34;
+    width: 500px;
+    height: 108px;
+    text-align: center;
+    margin: 0 293px 97px 0;
+}
+.box{
+	height: 518px;
+    width: 500px;
+    background-color: #fff;
+    padding: 50px 53px 0 53px;
+    border: 1px solid #abadaf;
+    text-align: center;
+}
+.box span{
+	font-size: 14px;
+    color: #a1a5a9;
+    text-align: left;
+    display: block;
+
+}
+.box h2{
+	font-size: 40px;
+	text-align: left;
+}
+.box a{
+	font-size: 12px;
+    border: 2px solid #3ad99f;
+    color: #3ad99f;
+    padding: 25px 49px;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 168px;
+    font-weight: 700;
+}
+.slider-nav{
+	text-align: left;
+	padding-left: 326px;
+}
+.slider-nav .prev-btn{
+	width: 65px;
+    height: 65px;
+    background-color: #2bd698;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    margin: 13px 0 0 13px;
+    background-image: url(../images/PNGs/arrow_white_lft_icn.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: top;
+}
+.slider-nav .next-btn{
+	width: 65px;
+    height: 65px;
+    background-color: #2bd698;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    margin: 13px 0 0 13px;
+    background-image: url(../images/PNGs/arrow_white_rght_icn.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: top;
+}
+.next-slider{
+	width: 500px;
+    height: 255px;
+    background-color: #ff432d;
+    font-size: 16px;
+    padding: 56px 40px 0 40px;
+    text-align: center;
+    display: inline-block;
+    margin-top: -55px;
+    position: relative;
+}
+.next-slider p{
+	text-align: left;
+	padding-bottom: 24px;
+}
+.next-slider .nav-btn-down{
+	display: inline-block;
+    text-decoration: none;
+    color: #fff4d8;
+    font-style: italic;
+    background-image: url(../images/PNGs/arrow_white_dwn.png);
+    background-position: center 29px;
+    background-repeat: no-repeat;
+    padding-bottom: 28px;
+}
+
+#page3{
+	top: 200%;
+	background-image: url(../images/PNGs/background_2.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#page3 .nav-btn-up{
+	text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    background-image: url(../images/PNGs/arrow_white_up_icn.png);
+    background-repeat: no-repeat;
+    background-position: center 34px;
+    padding-top: 55px;
+    font-style: italic;
+    background-color: #252e34;
+    width: 500px;
+    height: 108px;
+    text-align: center;
+    margin-right: 293px;
+}
+#myVideo{
+	display: block;
+}
+.content-wrap{
+	width: 1157px;
+	margin:0 auto;
+	height: 100%;
+}
+	.text-right{
+	text-align: right
+}
+

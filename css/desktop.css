@@ -1,0 +1,108 @@
+@media screen and (max-width: 1600px) {
+
+.language{
+    top: 26px;
+    right: 26px;
+}
+.language a{
+    padding: 4px;
+    font-size: 12px;
+}
+#nav{
+    right: 36px;
+}
+#nav a{
+	width: 5px;
+    height: 5px;
+    margin: 11px 0 11px 0;
+}
+#nav a.active{
+	width: 8px;
+    height: 8px;
+}
+.title{
+	width: 350px;
+ }
+ .title span{
+ 	font-size: 12px;
+ }
+ .title h1{
+ 	font-size: 114px;
+    line-height: 93px;
+ }
+ .video-wrap{
+ 	padding: 34px 28px 16px 28px;
+    width: 350px;
+    height: 213px;
+ }
+ .video-wrap .nav-btn-down{
+ 	font-size: 12px;
+    padding-bottom: 16px;
+}
+ .video-wrap p{
+ 	font-size: 12px;
+ }
+ .play-btn{
+ 	width: 46px;
+    height: 46px;
+    margin: 20px 0 7px 0;
+ }
+.content-slider .nav-btn-up{
+	font-size: 12px;
+	background-position: center 16px;
+    padding-top: 30px;
+    width: 350px;
+    height: 75px;
+    margin: 0 230px 70px 0;
+}
+.box{
+	height: 369px;
+    width: 355px;
+    padding: 38px 38px 0 38px;
+}
+.box span{
+	font-size: 12px;
+}
+.box h2{
+	font-size: 30px;
+}
+.box a{
+	font-size: 10px;
+    padding: 18px 35px;
+    margin-top: 120px;
+}
+.slider-nav{
+	padding-left: 230px;
+}
+.slider-nav .prev-btn{
+	width: 46px;
+    height: 46px;
+    margin: 10px 0 0 10px;
+}
+.slider-nav .next-btn{
+	width: 46px;
+    height: 46px;
+    margin: 10px 0 0 10px;
+}
+.next-slider{
+	width: 350px;
+    height: 178px;
+    font-size: 12px;
+    padding: 40px 28px 0 28px;
+    margin-top: -40px;
+}
+.next-slider p{
+	text-align: left;
+}
+.next-slider .nav-btn-down{
+    background-position: center 20px;
+}
+#page3 .nav-btn-up{
+	font-size: 12px;
+    background-position: center 16px;
+    padding-top: 30px;
+    width: 350px;
+    height: 75px;
+    margin: 0 230px 0px 0;
+}
+}
